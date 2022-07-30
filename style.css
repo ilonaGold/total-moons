@@ -1,0 +1,57 @@
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #f5e6db;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background: var(--raisin) url('moon.jpg') 50% 50%/cover no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1rem;
+    padding: 2rem; 
+}
+
+.total-moons-p {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#solarSystem {
+    border: 1px solid white;
+    background: rgba(0,0,0,0.7);
+    border-radius: 7px;
+    padding-top: 1rem;
+    margin-top: 6.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+span:not(#total) {
+    width: 46%;
+    display: inline-block;
+}
+
+li {
+    margin: 0.5rem 0;
+}
+
+#total {
+    color: var(--yellow);
+    font-size: 1.5rem;
+}
